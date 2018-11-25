@@ -10,8 +10,6 @@ import os
 ## usage:
 # /m/test/
 # /test/FILE.EXT_MIMETYPE/CHOSENFILE.EXT
-# http://lab.outflank.nl:18080/test/aap.jpg_jpg/x.jpg
-# http://lab.outflank.nl/~mark/downloader.wsgi/test/aap.jpg_jpg/x.jpg
 # basic url or redirector.....................|modname|key.....|notused
 class f():
   def __init__(self,key,h,req={}):
