@@ -53,4 +53,5 @@ def staticlst():
         return(html)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=18080,debug=True)
+    # DEBUG app.run(host='0.0.0.0',port=18080,debug=True)
+    app.run(host='127.0.0.1',port=18080,debug=False)
